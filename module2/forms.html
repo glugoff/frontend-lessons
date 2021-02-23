@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Тэги полей и элементов управления форм</h2>
+    <p>Поле для ввода года:</p>
+    <form method="post"></form>
+        <input type="text" size="50" placeholder="Введите год" maxlength="4" name="">
+            <input type="submit" value="Панеслася!">
+            <input type="reset" value="Затереть">
+            <input type="button" value="Более другая кнопка">
+            <br>
+<button>
+    <img src="img\cat.png" alt="" height="100">
+</button>
+<br><br>
+<p>Текстовое поле</p>
+
+<textarea name="" id="" cols="30" rows="10">Пешы сюдой!</textarea>
+<br>
+<textarea placeholder="Неизменяемое поле. Наверное, для возврата значений" name="" readonly="readonly" id="" cols="30" rows="10"></textarea>
+<br>
+<input type="button" disabled="disabled" value="Недоступная кнопка :(">
+<br>
+<p>Выпадающий список</p>
+<select name="" id="">
+    <option value="">Красный</option>
+    <option value="" selected>Оранжевый</option>
+    <optgroup label="цветные цвета">
+    <option value="">Желтый</option>
+    <option value="">Зеленый</option>
+    <option value="">Голубой</option>
+        </optgroup>
+        </select>
+<br>
+<p>Чекбоксы:</p>
+<input id="dontsend" checked type="checkbox">&nbsp;<label for="dontsend">Не спамьте, пожалуйста</label>
+<br>
+<p>Радиобатон</p>
+<input id="r1" type="radio" name="choice"> <label for="r1">&nbsp;ага</label> <br>
+<input id="r2" type="radio" name="choice"><label for="r2"> &nbsp;неа</label> <br>
+<input id="r3" type="radio" name="choice" checked><label for="r3"> &nbsp; уходим уотсюда!</label> <br>
+<br>
+<p>Выбор файла:</p>
+<input type="file">
+<br>
+<p>Поле ввода пароля:</p>
+<input type="password">
+<p>Поле ввода емайла</p>
+<input type="email" required>
+<br>
+<hr>
+<input type="submit" value="Панеслася!">
+<input type="color">
+<input type="number">
+<input type="range">
+</body>
+</html>
